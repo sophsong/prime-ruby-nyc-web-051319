@@ -1,7 +1,8 @@
 # Add  code here!
 
 def prime?(number)
-  if number<0 || number ==0|| number==log10
+  if number<= 1
+   
     return false
   end
     
