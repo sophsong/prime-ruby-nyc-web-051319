@@ -6,12 +6,12 @@ def prime?(number)
     return false
   end
     
-  else
-    (2..number-1).to_a.all? do |factor|
-      number % factor ! = 0
-      
-      
+ for n in 2..(number-1)
+ if number%n==0
+    return false
+  end
     end
+    return true
   end
 
       
